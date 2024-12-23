@@ -1,13 +1,7 @@
 import Image from "next/image";
 import CardText from "../components/card";
 
-import { Montserrat } from "next/font/google";
-const montserrat = Montserrat({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap'
-});
+
 
 
 // Define product data
@@ -43,7 +37,7 @@ const List = () => {
             </div>
           ))}
         </div>
-        <div className={`${montserrat.className} w-[300px]    h-[75px] flex  items-center rounded-[7px] border-[1.35px]`}>
+        <div className={` w-[300px]    h-[75px] flex  items-center rounded-[7px] border-[1.35px]`}>
             <div className="flex justify-center items-center w-[84px] h-[74px]  ">
                 <h2 className="text-sm font-bold leading-6 p-[25px] text-[#BDBDBD]  bg-[#F3F3F3] ">First</h2>
             </div>

@@ -14,14 +14,6 @@ import Button from "../components/button";
 
 
 
-import { Montserrat } from "next/font/google";
-const montserrat = Montserrat({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap'
-});
-
 
 const ProductCard = () => {
   return (
@@ -60,7 +52,7 @@ const ProductCard = () => {
       </div>
 
       {/* Right: Product Details */}
-      <div className={`${montserrat.className} flex flex-col gap-0 md:gap-4  `}>
+      <div className={` flex flex-col gap-0 md:gap-4  `}>
         {/* Title */}
         <h4 className="text-2xl font-normal leading-7 text-[#252B42]  mb-2">Floating Phone</h4>
 

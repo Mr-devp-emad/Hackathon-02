@@ -1,18 +1,11 @@
 import Image from "next/image";
 import coloursIcon from "../../../public/Home/product-colors.png"
 
-import { Montserrat } from 'next/font/google';
 
-const montserrat = Montserrat({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap'
-});
 
 export default function CardText() {
   return (
-    <div className={`${montserrat.className} w-[239px] h-[188px] py-[25px] px-[25px] flex flex-col items-center justify-center gap-[10px]`}>
+    <div className={` w-[239px] h-[188px] py-[25px] px-[25px] flex flex-col items-center justify-center gap-[10px]`}>
       <h5 className="w-full  font-bold text-[16px] leading-[24px] text-center text-[#252B42]">
         Graphic Design
       </h5>

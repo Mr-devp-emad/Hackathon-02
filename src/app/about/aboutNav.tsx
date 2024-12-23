@@ -2,19 +2,12 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Montserrat } from "next/font/google";
+
 import { MdOutlineAccountCircle } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { HiOutlineMenuAlt3, HiOutlineX } from 'react-icons/hi';
 import Button from '../components/button';
-
-const montserrat = Montserrat({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap',
-});
 
 const AboutNav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -27,7 +20,7 @@ const AboutNav = () => {
     <div className="relative">
       {/* Navigation Wrapper */}
       <div className="w-full flex justify-center  bg-white shadow-md">
-        <div className={`${montserrat.className} container max-w-screen-xl flex justify-between items-center px-4 md:px-6 py-3`}>
+        <div className={` container max-w-screen-xl flex justify-between items-center px-4 md:px-6 py-3`}>
           {/* Brand Name */}
           <div className="flex items-center">
             <h3 className="text-2xl font-bold text-[#252B42]">Bandage</h3>

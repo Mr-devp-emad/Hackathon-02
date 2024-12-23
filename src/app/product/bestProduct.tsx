@@ -1,13 +1,6 @@
 import Image from "next/image";
 import CardText from "../components/card";
 
-import { Montserrat } from "next/font/google";
-const montserrat = Montserrat({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap'
-});
 
 
 // Define product data
