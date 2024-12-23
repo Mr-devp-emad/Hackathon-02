@@ -63,7 +63,11 @@ const Navbar = (props:NavbarType) => {
                 <h3 className={`text-2xl font-bold pl-2 leading-8 tracking-[0.100] text-[#252B42] `}>Bandage</h3>
                 </div>
                 <div className='hidden md:flex md:w-[500px] h-[58px]  items-center py-[2px] '>
+<<<<<<< HEAD
                     <div className='flex w-[361px] h-[25px]  gap-[15px] '>
+=======
+                    <div className='flex w-[361px] h-[25px]  gap-[35px] '>
+>>>>>>> latest_branch
                     <Link href="/"className='text-sm font-bold leading-6 tracking-[0.200] hover:text-[#23A6F0]' >Home</Link>
                     <Link href="/productList"className='text-sm font-bold leading-6 tracking-[0.200] hover:text-[#23A6F0] flex items-center ' >Shop <RiArrowDropDownLine className='text-[20px]'/></Link>
                     <Link href="/about"className='text-sm font-bold leading-6 tracking-[0.200] hover:text-[#23A6F0]' >About</Link>
